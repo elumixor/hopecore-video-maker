@@ -1,0 +1,22 @@
+{
+  "name": "hopecore-video-maker",
+  "version": "1.0.0",
+  "description": "AI-powered hopecore video maker with Remotion + Claude Code",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "render": "npx remotion render --config remotion.config.ts"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.424",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@remotion/renderer": "^4.0.424",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.424"
+  }
+}

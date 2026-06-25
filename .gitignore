@@ -1,0 +1,11 @@
+node_modules/
+public/*.mp4
+public/*.wav
+public/*.mp3
+public/broll/*.mp4
+output/
+transcript/
+props.json
+scenes.json
+.env
+*.local
